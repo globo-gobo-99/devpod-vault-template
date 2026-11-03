@@ -1,6 +1,5 @@
 {
   "folder": "Sessions",
   "format": "YYYY-MM-DD",
-  "template": "Templates/Daily",
-  "autorun": true
+  "template": "Templates/Daily.md"
 }

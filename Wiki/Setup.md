@@ -1,11 +1,11 @@
 ---
 created: 2026-11-02
-modified: "2026-11-02T17:36"
+modified: "2026-11-02T22:08"
 ---
 # Starter setup
 
-Activate `.gobsidian` explicitly; do not copy it into an existing personal config folder.
-Core daily notes are configured to open today's note on startup. Date format is `YYYY-MM-DD`
+Activate `.gobsidian` explicitly. If that folder already exists, back it up before copying the reviewed JSON files directly into it; do not nest another `gobsidian` directory inside it. See [[Wiki/First boot]] for the download and profile-recovery sequence.
+The main `openBehavior: daily` setting opens today's daily note on startup. The daily-note template path includes its extension: `Templates/Daily.md`. Date format is `YYYY-MM-DD`
 and uses the device's current timezone; choose one convention across devices before use.
 Templates use Obsidian's native `{{date}}`/`{{time}}` tokens, not invented historical dates.
 
