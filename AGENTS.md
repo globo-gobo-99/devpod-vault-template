@@ -1,3 +1,6 @@
+---
+sensitivity: public
+---
 # Starter vault scope
 
 This repository is an empty portable starter. Preserve human prose and capture metadata.
