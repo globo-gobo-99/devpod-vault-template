@@ -1,15 +1,21 @@
 ---
-created: 2026-11-02
-modified: "2026-11-02T22:52"
+created: 2026-11-03
+modified: "2026-11-03T01:30"
 ---
-# devpod-vault-template
+# Shared vault template
 
-- Empty reusable Obsidian starter; choose **Use this template** on GitHub.
-- No personal notes, credentials, account bindings or copied device state.
-- [Sessions](Sessions/README.md) · [Wiki](Wiki/README.md) · [Stacks](Stacks/README.md) · [Clippings](Clippings/README.md) · [Templates](Templates/README.md).
-- [First boot](Wiki/First%20boot.md) — Download and activate the optional `.gobsidian` profile.
-- [Setup](Wiki/Setup.md) — Daily notes, source files and device checks.
+Use this template to create a private Obsidian workspace. It contains reusable structure and placeholders, without personal notes, account bindings, or copied device state.
 
-## See also
+- [Ob-Sk](Ob-Sk/README.md) — System overview and six supported [device roles](Ob-Sk/devices/README.md).
+- [Tail-Net](Tail-Net/README.md) — Private networking.
+- [Dev-Pod](Dev-Pod/README.md) — Development pod operations.
+- [Run-Pod](Run-Pod/README.md) — Hosting and inference.
+- [Models](Models/README.md) — Model catalog.
+- [Agentic-Roles](Agentic-Roles/README.md) — Responsibilities.
+- [Sessions](Sessions/README.md) — Dated work receipts.
+- [Clippings](Clippings/README.md) — Captured material.
+- [Stacks](Stacks/README.md) — Parked topics.
+- [Templates](Templates/README.md) — Reusable note formats.
+- [Wiki](Wiki/README.md) — Setup and reference.
 
-- [First boot](Wiki/First%20boot.md)
+Start with [First boot](Wiki/First%20boot.md) and [Setup](Wiki/Setup.md). Configure credentials, networking, startup, and scheduling for the deployment; this folder structure alone does not activate services.
