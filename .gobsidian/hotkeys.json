@@ -16,24 +16,6 @@
       "key": "Enter"
     }
   ],
-  "workspace:previous-tab": [
-    {
-      "modifiers": [
-        "Ctrl",
-        "Shift"
-      ],
-      "key": "ArrowLeft"
-    }
-  ],
-  "workspace:next-tab": [
-    {
-      "modifiers": [
-        "Ctrl",
-        "Shift"
-      ],
-      "key": "ArrowRight"
-    }
-  ],
   "workspace:split-vertical": [
     {
       "modifiers": [
@@ -48,6 +30,50 @@
         "Alt"
       ],
       "key": "-"
+    }
+  ],
+  "workspace:close": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "W"
+    }
+  ],
+  "workspace:previous-tab": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "ArrowLeft"
+    }
+  ],
+  "app:go-back": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "workspace:next-tab": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "ArrowRight"
+    }
+  ],
+  "app:go-forward": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "ArrowDown"
     }
   ]
 }
