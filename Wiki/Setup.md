@@ -10,9 +10,20 @@ The main `openBehavior: daily` setting opens today's daily note on startup. The 
 and uses the device's current timezone; choose one convention across devices before use.
 Templates use Obsidian's native `{{date}}`/`{{time}}` tokens, not invented historical dates.
 
-Ctrl-backtick copies the file path; Ctrl-Shift-Enter toggles source. Ctrl-Shift-Left/Right
-are assigned to previous/next tab. Alt+`|` and Alt+`-` are proposed splits and need real device
-checks. Rootshell/tmux settings are a separate remote-terminal contract.
+## Hotkey baseline
+// Nine reviewed bindings preserve Cut and give tabs and navigation consistent directional controls.
+
+| Action | Binding |
+| --- | --- |
+| Copy current path | Ctrl + backtick |
+| Toggle source | Ctrl + Shift + Enter |
+| Split vertically | Alt + pipe |
+| Split horizontally | Alt + minus |
+| Close active tab | Mod + W |
+| Previous / next tab | Alt + Mod + Left / Right |
+| Back / forward | Alt + Mod + Up / Down |
+
+Mod is Command on macOS and Control on Windows/Linux. Mod+X remains available for Cut. The proposed Z/zoom binding is not included. JSON shape and duplicate chords were checked; test the physical keys and OS/app conflicts on each device. Rootshell/tmux settings remain a separate terminal contract.
 
 Recent Edits was present in the supplied reference; install it yourself through Obsidian's
 reviewed community-plugin flow if desired. This starter includes no plugin binaries or plugin
